@@ -1,15 +1,7 @@
 # ThanhSu Mod - Vietnam Flag & Independence Dimension
 
 A Fabric mod for Minecraft 1.21.1 that adds:
-- **Vietnam Flag item**: Hold right-click for 3 seconds to teleport to Independence Dimension
-- **Vietnam Star item**: Craftable component for the Vietnam Flag
-- **Independence Dimension**: A flat world with barrier blocks, featuring the Dinh Doc Lap structure
-  - No natural mob spawning
-  - No weather changes
-  - Locked to daytime
-  - Night Vision effect for all players
-  - Players cannot break or place blocks (except in creative mode)
-  - Memorial video plays on first visit
+- **Vietnam Flag item**: Hold right-click for 3 seconds to teleport to Dinh Doc Lap structure
 
 ## Building the Mod
 
@@ -55,9 +47,15 @@ A Fabric mod for Minecraft 1.21.1 that adds:
 
 **Vietnam Star:**
 - 8 Gold Blocks + 1 Nether Star (center) in a crafting table
+<img width="712" height="339" alt="image" src="https://github.com/user-attachments/assets/8f41076a-2e08-43c0-ad5b-fc44b23eb3f6" />
 
 **Vietnam Flag:**
-- Custom recipe using Vietnam Star and sticks (see in-game recipe book)
+- Custom recipe using Vietnam Star and wools
+<img width="711" height="340" alt="image" src="https://github.com/user-attachments/assets/6c54d8b4-53d7-4e6a-985f-eb1da88ecb2e" />
+  
+**Vietnam Flag:**
+- Custom recipe using Flag and sticks (see in-game recipe book)
+<img width="711" height="344" alt="image" src="https://github.com/user-attachments/assets/a2e8e19d-32d1-4563-ae62-cc87c288ddbc" />
 
 ### Teleportation
 
@@ -67,7 +65,7 @@ A Fabric mod for Minecraft 1.21.1 that adds:
 2. Hold the flag and right-click for 3 seconds (you'll see the "waving" animation)
 
 3. You'll be teleported to the Independence Dimension at coordinates (240.995, 67.0, 134.008)
-   - The Dinh Doc Lap structure spawns at (0, 65, 0)
+   - The Dinh Doc Lap structure spawns at Independence Dimension
    - On your first visit, a memorial video will play fullscreen
    - A welcome message will be broadcast: "[Player] - Chào mừng đến Dinh Độc Lập"
 
