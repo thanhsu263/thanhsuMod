@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SF ",
+    "S  ",
+    "   "
+  ],
+  "key": {
+    "F": {
+      "item": "thanhsumod:flag"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "thanhsumod:vietnam_flag",
+    "count": 1
+  }
+}

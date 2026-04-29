@@ -1,0 +1,18 @@
+{
+  "type": "thanhsumod:independence_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [
+        {
+          "block": "minecraft:barrier",
+          "height": 1
+        }
+      ],
+      "biome": "minecraft:plains",
+      "lakes": false,
+      "features": false,
+      "structure_overrides": []
+    }
+  }
+}

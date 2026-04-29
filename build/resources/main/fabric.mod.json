@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "thanhsumod",
+	"version": "1.0.0",
+	"name": "ThanhSu Mod",
+	"description": "A mod that adds Vietnam Flag item and Independence Dimension",
+	"authors": [
+		"ThanhSu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/thanhsumod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.thanhsu.thanhsumod.ThanhSuMod"
+		],
+		"client": [
+			"com.thanhsu.thanhsumod.client.ThanhSuModClient"
+		]
+	},
+	"mixins": [
+		"thanhsumod.mixins.json",
+		{
+			"config": "thanhsumod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
