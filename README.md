@@ -33,13 +33,14 @@ A Fabric mod for Minecraft 1.21.1 that adds:
 #### Installation Steps
 
 1. Install Fabric Loader for Minecraft 1.21.1
-2. Download all required mods listed above
-3. Place all JAR files in your `.minecraft/mods` folder:
+2. Install thanhsuMod at [Releases](../../releases) page
+3. Download all required mods listed above
+4. Place all JAR files in your `.minecraft/mods` folder:
    - `fabric-api-0.116.11+1.21.1.jar`
    - `animatedframes-1.6.1.jar`
    - `watermedia-2.1.37.jar`
    - `thanhsumod-1.0.0.jar`
-4. Launch Minecraft with Fabric profile
+5. Launch Minecraft with Fabric profile
 
 ## Usage
 
